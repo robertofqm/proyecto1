@@ -1,0 +1,284 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(124, 122, 122);
+}
+.estilo-texto{
+  font-size: 50px;
+  color: rgb(124, 122, 122);
+}
+h6{
+    height: 10px;
+    width: 100%;
+    background-color: rgba(76, 78, 78, 0.692);
+    color: dimgray;
+    border-radius: 8px;
+    text-align: right;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    padding-right: 10px; 
+    font-size: 10px;}  
+
+ul {    
+    list-style:none;
+    font-size: 0;
+    padding: 0;
+   
+    }
+    
+li {
+      display: inline-block;
+      width: 25%;
+      position:relative;
+    
+    }
+a {
+      font-size: 14px;
+      text-align: center;
+      display: block;
+      color: white;
+      background-color: rgba(76, 78, 78, 0.692);
+      padding: 10px;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-family: sans-serif;
+      
+    }
+
+a:hover {
+      background-color: rgba(143, 131, 131, 0.467);
+      
+    }
+   
+
+
+form {
+    border: 1px solid rgba(194, 188, 188, 0.74);
+    background-color: rgb(134, 144, 148);
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    font-size: 15px;
+    text-align:left ;
+    color: aliceblue;   
+    width: 500px;
+    height: 430px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+    
+input[type=text] {
+    width: 558px;
+    height: 30px;
+    font-size: 5px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 558px;
+    height: 30px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+   }
+  
+input[type=text1] {
+    width: 558px;
+    height: 150px;
+    box-sizing: border-box;
+    text-align: left;
+    position: relative;
+    align-items: normal;
+}
+
+input[type=submit]{    
+    width: 500px;
+    height: 30px;
+    background-color: rgb(225, 65, 65);
+    color: white;
+    margin-left: 35px;
+    border: none;
+    border-radius: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 15px;}
+
+.texto{
+    text-align: justify; 
+    color: dimgrey;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-indent: 55px;
+    line-height: 25px;
+    word-spacing: 3px}
+    
+  .textoproyecto{
+    text-align: justify; 
+    color: dimgrey;
+    padding-left: 20px;
+    padding-right: 33px;
+    padding-top: 50px;
+    text-indent: 55px;
+    line-height: 25px;
+    word-spacing: 3px;}
+
+.subtitulos{
+   color: dimgrey;
+   padding: 5px 300px 5px 520px;}
+
+.subtitulos2{
+  color: dimgrey;
+  padding-left: 20px;}
+
+div h1{
+  position: relative;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 40px;
+  
+}
+.container {
+  width: auto;
+  height: auto;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  text-align: justify;
+  font-size: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 100px 200px 1fr */
+  grid-template-rows: (1, 2fr);
+  justify-items: center;
+  align-items: center;
+ 
+}
+
+.borde{
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.contenedor {
+  width: auto;
+  height: auto;
+  color: rgb(5, 5, 5);
+  text-align: center;
+  text-align: justify;
+  font-size: 10px;
+  margin-top: 50px;
+}
+
+.gridgaleria {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* 100px 200px 1fr */
+  grid-template-rows: (10, 2fr);
+  justify-items: center;
+  align-items: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  color: darkgray;
+}
+
+
+.contenedort {
+  text-align: center;
+  font-size: 10px;
+  background-color: rgb(195, 195, 204);
+}
+
+.titulo {
+  display: grid;
+  grid-template-columns: 1fr; /* 100px 200px 1fr */
+  grid-template-rows: 5fr 1fr;
+}
+.estilo-texto{
+ padding-top: 30px;
+}
+.mapa{
+  display: grid;
+  grid-template-columns: 1fr; /* 100px 200px 1fr */
+  grid-template-rows: 1fr;
+  justify-items: center;
+  align-items: center;
+  
+  margin-top: 10px;
+
+
+}
+gridcontainer{
+  grid-template-areas:
+  header header;
+}
+
+header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}ñ
+article{
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center; n
+  font-size: 35px;
+}
+/* Estilo para la creación del grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header' 
+    'left right'
+    'footer footer';
+  /* grid-column-gap: 10px; - Si queres que deje distancia entre las columnas, descomentar esta linea */
+} 
+
+.left{
+  padding: 10px;
+  height: auto
+  ; }
+.middle,
+.right {
+  padding: 10px;
+  height: auto
+  ; /* Deberia ser removido para la demostración */
+}
+
+/* Estilo para la columna de la izquierda */
+.left {
+  grid-area: left;
+  background-color: #aaa;
+}
+
+/* Estilo para la columna del centro */
+.middle {
+  grid-area: middle;
+  background-color: #bbb;
+}
+
+/* Estilo para la columna de la derecha */
+.right {
+  grid-area: right;
+  background-color: #ccc;
+}
+
+/* Estilos para el footer */
+.footer {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'middle middle middle middle middle middle' 
+      'right right right right right right' 
+      'footer footer footer footer footer footer';
+  }
+}
